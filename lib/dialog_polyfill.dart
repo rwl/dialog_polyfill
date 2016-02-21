@@ -9,7 +9,7 @@ class Dialog {
 
   Dialog(this.dialog) {
     _proxy = new JsObject.fromBrowserObject(dialog);
-    if (!_proxy.hasProperty('showModel')) {
+    if (dialog is! DialogElement) {
       context['dialogPolyfill']?.callMethod('registerDialog', [dialog]);
     }
   }
