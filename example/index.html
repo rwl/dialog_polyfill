@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dialog</title>
+    
+    <script type="text/javascript" src="packages/dialog_polyfill/dialog-polyfill.js"></script>
+    <link rel="stylesheet" type="text/css" href="packages/dialog_polyfill/dialog-polyfill.css"/>
+  </head>
+ 
+  <body>   
+    <dialog>
+      <h1>Dialog</h1>
+      <button id="close">Close</button>
+    </dialog>
+    
+    <button id="show">Show</button>
+    <button id="show-modal">Show Modal</button>
+    
+    <script type="application/dart" src="main.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

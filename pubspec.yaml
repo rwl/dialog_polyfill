@@ -3,3 +3,5 @@ version: 0.4.3-dev.1
 author: Richard Lincoln <r.w.lincoln@gmail.com>
 description: Polyfill for HTML dialog element
 homepage: https://github.com/rwl/dialog_polyfill
+dependencies:
+  browser: any
