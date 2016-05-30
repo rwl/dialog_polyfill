@@ -7,6 +7,7 @@
 
 ```html
 <head>
-  <link rel="import" href="packages/dialog_polyfill/dialog_polyfill.html">
+  <script type="text/javascript" src="packages/dialog_polyfill/dialog-polyfill.js"></script>
+  <link rel="stylesheet" type="text/css" href="packages/dialog_polyfill/dialog-polyfill.css"/>
 </head>
 ```
